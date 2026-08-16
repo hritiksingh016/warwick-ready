@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#24145f">
+  <meta name="description" content="Warwick Ready — a simple, curated guide for getting from India to Warwick.">
+  <title>Warwick Ready</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Warwick Ready home"><span class="brand-mark">W</span><span>Warwick Ready</span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Main navigation">
+    <a href="#journey">Your journey</a>
+    <a href="#before-you-fly">Before you fly</a>
+    <a href="#arrive">When you arrive</a>
+    <a href="#quick-links">Quick links</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="eyebrow">INDIA → UK → WARWICK</div>
+      <h1>Everything you need to get <span>Warwick ready.</span></h1>
+      <p class="hero-copy">A simple, curated starting point for incoming international students — and the parents helping them get there.</p>
+      <a class="primary-btn" href="#journey">Start the journey <span>↓</span></a>
+      <div class="hero-note"><span class="dot"></span> Built for your phone first.</div>
+    </section>
+
+    <section class="progress-wrap section-pad" aria-label="Journey progress">
+      <div class="progress-head"><strong>Your journey</strong><span id="progressLabel">1 of 5</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </section>
+
+    <section id="journey" class="section-pad">
+      <div class="section-heading"><div><div class="eyebrow">THE ROADMAP</div><h2>One step at a time.</h2></div></div>
+      <div class="journey-list">
+        <article class="journey-card active" data-step="1">
+          <div class="step-no">01</div><div class="card-body"><div class="status">START HERE</div><h3>Offer & conditions</h3><p>Understand what your offer means and what still needs to be completed.</p><a href="#quick-links" class="text-link">Open essentials <span>→</span></a></div>
+        </article>
+        <article class="journey-card" data-step="2">
+          <div class="step-no">02</div><div class="card-body"><div class="status">NEXT</div><h3>Unconditional offer</h3><p>Get clear on the point when your place is confirmed and what comes next.</p><a href="#before-you-fly" class="text-link">See next steps <span>→</span></a></div>
+        </article>
+        <article class="journey-card" data-step="3">
+          <div class="step-no">03</div><div class="card-body"><div class="status">PREPARE</div><h3>Visa & finances</h3><p>Keep the important documents, payments and visa steps in one place.</p><a href="#quick-links" class="text-link">View resources <span>→</span></a></div>
+        </article>
+        <article class="journey-card" data-step="4">
+          <div class="step-no">04</div><div class="card-body"><div class="status">GET READY</div><h3>Accommodation & travel</h3><p>Sort where you will live, how you will travel and what to carry.</p><a href="#before-you-fly" class="text-link">Get organised <span>→</span></a></div>
+        </article>
+        <article class="journey-card" data-step="5">
+          <div class="step-no">05</div><div class="card-body"><div class="status">WELCOME</div><h3>Arrive at Warwick</h3><p>Know what to do in your first few days so you can settle in with confidence.</p><a href="#arrive" class="text-link">First days <span>→</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="before-you-fly" class="soft-section section-pad">
+      <div class="eyebrow">BEFORE YOU FLY</div><h2>Your phone-friendly checklist.</h2>
+      <p class="section-copy">Use this as a quick scan. The goal is not more reading — it is knowing what to do next.</p>
+      <div class="checklist" id="checklist">
+        <label><input type="checkbox"> <span>Offer / admission documents</span></label>
+        <label><input type="checkbox"> <span>Visa documents & copies</span></label>
+        <label><input type="checkbox"> <span>Accommodation confirmed</span></label>
+        <label><input type="checkbox"> <span>Flight & airport plan</span></label>
+        <label><input type="checkbox"> <span>Money / cards / emergency cash</span></label>
+        <label><input type="checkbox"> <span>Essential documents saved offline</span></label>
+      </div>
+      <button class="secondary-btn" id="resetChecklist">Reset checklist</button>
+    </section>
+
+    <section id="arrive" class="section-pad">
+      <div class="eyebrow">WHEN YOU ARRIVE</div><h2>First days, made simpler.</h2>
+      <div class="arrive-grid">
+        <div class="mini-card"><span>01</span><strong>Get connected</strong><p>SIM, internet and the essentials for staying in touch.</p></div>
+        <div class="mini-card"><span>02</span><strong>Get oriented</strong><p>Campus, transport, groceries and your local area.</p></div>
+        <div class="mini-card"><span>03</span><strong>Get settled</strong><p>Registration, student essentials and your first-week rhythm.</p></div>
+      </div>
+    </section>
+
+    <section id="quick-links" class="links-section section-pad">
+      <div class="eyebrow">OFFICIAL RESOURCES</div><h2>Useful links, without the clutter.</h2>
+      <div class="link-list">
+        <a href="https://warwick.ac.uk/services/academicoffice/admissions/" target="_blank" rel="noopener"><span>University of Warwick — Admissions</span><b>↗</b></a>
+        <a href="https://warwick.ac.uk/services/immigration/" target="_blank" rel="noopener"><span>Warwick — Immigration & visa support</span><b>↗</b></a>
+        <a href="https://warwick.ac.uk/services/accommodation/" target="_blank" rel="noopener"><span>Warwick — Accommodation</span><b>↗</b></a>
+        <a href="https://warwick.ac.uk/services/international/" target="_blank" rel="noopener"><span>Warwick — International students</span><b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand">Warwick Ready</div><p>Built to make the move from India to Warwick feel a little less overwhelming.</p><small>V1 · Mobile first · Free & open</small></footer>
+  <nav class="bottom-nav" aria-label="Quick navigation"><a href="#top">Home</a><a href="#journey">Journey</a><a href="#before-you-fly">Checklist</a><a href="#quick-links">Links</a></nav>
+  <script src="script.js"></script>
+</body>
+</html>
