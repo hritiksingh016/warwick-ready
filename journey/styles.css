@@ -1,0 +1,3 @@
+@import url('../styles.css');
+
+/* Journey pages live one directory below the site root, so this file keeps their shared styling relative and reliable. */
