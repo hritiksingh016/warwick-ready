@@ -25,14 +25,14 @@
   <div class="hero-note"><span class="dot"></span> Designed for students and parents on mobile.</div>
 </section>
 
-<section class="dashboard section-pad" aria-label="Your Warwick journey overview">
-  <div class="dashboard-head"><div><div class="eyebrow">YOUR JOURNEY</div><h2>Know what comes next.</h2></div><span class="stage-pill" id="stagePill">Stage 1 of 15</span></div>
+<section id="dashboard" class="dashboard section-pad" aria-label="Your Warwick journey overview">
+  <div class="dashboard-head"><div><div class="eyebrow">YOUR JOURNEY</div><h2>Know what comes next.</h2></div><span class="stage-pill" id="stagePill">Stage 1 of 16</span></div>
   <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
   <div class="next-card"><div><span class="status">START HERE</span><h3 id="nextTitle">Offer & conditions</h3><p id="nextCopy">Understand what your offer means and what you need to complete before moving forward.</p></div><button class="circle-btn" id="nextBtn" aria-label="Open current stage">→</button></div>
 </section>
 
 <section id="journey" class="section-pad">
-  <div class="eyebrow">THE ROADMAP</div><h2>15 stages. One clear path.</h2>
+  <div class="eyebrow">THE ROADMAP</div><h2>16 stages. One clear path.</h2>
   <p class="section-copy">Tap a stage to see what matters, what you may need, and the official source to check.</p>
   <div class="timeline" id="timeline"></div>
 </section>
@@ -47,6 +47,7 @@
     <div class="detail-card"><div class="card-kicker">WHAT YOU MAY NEED</div><div id="detailNeeds"></div></div>
   </div>
   <div class="source-box"><div><div class="card-kicker">OFFICIAL SOURCE</div><strong id="detailSourceName"></strong><p id="detailSourceNote"></p></div><a id="detailSourceLink" class="secondary-btn" href="#" target="_blank" rel="noopener">Open source ↗</a></div>
+  <div class="secondary-source" id="secondarySource" hidden><div><div class="card-kicker">ALSO USEFUL</div><strong></strong></div><a class="secondary-btn" href="#" target="_blank" rel="noopener">Open ↗</a></div>
   <div class="tip-box"><span>💡</span><div><strong>Warwick Ready tip</strong><p id="detailTip"></p></div></div>
   <button class="complete-btn" id="completeBtn">Mark this stage complete ✓</button>
 </section>
@@ -54,7 +55,7 @@
 <section id="checklist" class="soft-section section-pad">
   <div class="eyebrow">MY CHECKLIST</div><h2>Turn information into action.</h2>
   <p class="section-copy">Your progress stays on this device, so you can come back without creating an account.</p>
-  <div class="checklist-head"><strong id="checkProgress">0 of 15 complete</strong><button class="text-button" id="resetChecklist">Reset</button></div>
+  <div class="checklist-head"><strong id="checkProgress">0 of 16 complete</strong><button class="text-button" id="resetChecklist">Reset</button></div>
   <div class="checklist" id="checklistItems"></div>
 </section>
 
@@ -64,14 +65,16 @@
   <div class="link-list">
     <a href="https://warwick.ac.uk/study/international/visa/applying-for-a-visa/visas-for-studying/student-visa/" target="_blank" rel="noopener"><span>Warwick — Student visa advice</span><b>↗</b></a>
     <a href="https://www.gov.uk/student-visa" target="_blank" rel="noopener"><span>GOV.UK — Student visa</span><b>↗</b></a>
-    <a href="https://warwick.ac.uk/services/accommodation/" target="_blank" rel="noopener"><span>Warwick — Accommodation</span><b>↗</b></a>
-    <a href="https://warwick.ac.uk/students/together/welcome/internationalstudents/" target="_blank" rel="noopener"><span>Warwick — International students</span><b>↗</b></a>
+    <a href="https://warwick.ac.uk/services/accommodation/students/prospective/" target="_blank" rel="noopener"><span>Warwick — Prospective accommodation</span><b>↗</b></a>
+    <a href="https://warwick.ac.uk/services/accommodation/students/waoffcampus/studentpad/" target="_blank" rel="noopener"><span>Warwick Studentpad — Private accommodation</span><b>↗</b></a>
+    <a href="https://warwick.ac.uk/students/together/welcome/internationalstudents/ukphone/" target="_blank" rel="noopener"><span>Warwick — UK mobile number</span><b>↗</b></a>
+    <a href="https://warwick.ac.uk/students/together/welcome/internationalstudents/bank/" target="_blank" rel="noopener"><span>Warwick — UK bank account</span><b>↗</b></a>
   </div>
   <p class="verification">Information on fees, immigration rules, availability and prices can change. Always verify time-sensitive information at the official source before acting.</p>
 </section>
 </main>
 
-<footer><div class="footer-brand">Warwick Ready</div><p>Built to make the move from India to Warwick feel a little less overwhelming.</p><small>V0.2 · Mobile first · Free & open</small></footer>
+<footer><div class="footer-brand">Warwick Ready</div><p>Built to make the move from India to Warwick feel a little less overwhelming.</p><small>V0.3 · Mobile first · Free & open</small></footer>
 <nav class="bottom-nav" aria-label="Quick navigation"><a href="#top">Home</a><a href="#journey">Journey</a><a href="#checklist">Checklist</a><a href="#resources">Resources</a></nav>
 <script src="script.js"></script>
 </body>
